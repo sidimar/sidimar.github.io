@@ -1,0 +1,15 @@
+---
+title: Schoolbag style guide
+layout: default
+modal-id: schoolbag-guide
+img0: schoolbag-styleguide.jpg
+img1: 
+thumbnail: tb-styleguide.jpg
+alt: Schoolbag style guide
+project-date: September 2015
+client: Learning Data
+url: 
+category: UI Design, Style Guide
+description: <p>This is the SchoolBag style guide. The idea is respect the style avoiding creating style do not means schoolbag, wrong design implementation and it could used as a manual.</p><p>It’s keep the system consistent, clean and useful. We use research users and do changes on the system, sometimes it’s affect the style guide based on these feedbacks, for that reason is so important keep the style consistent.</p>
+
+---

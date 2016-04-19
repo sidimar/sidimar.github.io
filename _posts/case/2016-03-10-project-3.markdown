@@ -1,0 +1,15 @@
+---
+title: Schoolbag - Classes
+layout: default
+modal-id: schoolbag-classes
+img0: classes-student.jpg
+img1: classes-teacher.jpg
+thumbnail: tb-classes.jpg
+alt: Schoolbag - Classes
+project-date: October 2015
+client: Kimera App
+category: App Design, Manage System
+url: 
+description: <p><strong>Teachers</strong></p><p>Classes is a section where teacher access all classes they teach and all student details for each class. The firsts designs bring a page with all classes in tiles and then teacher click one and have 3 subsections (Homework – Resources – Students) where teacher can click each item menu and create a new homework, new resource or access students details.</p><p>After a survey, teachers said they expand too much time sometime just too know how many student they have each class or create a simple homework (that’s what teachers do more on Schoolbag – Classes).</p><p>After the feedback the conclusion was bring some facilities for teacher as is possible see the mockup. We redesign the card to bring a fresh design to bring consistence and insert some buttons to be simple to create a new homework and see how many students have each class. Here has many clicks and shortcuts teacher use more.</p><hr><p><strong>Students</strong></p><p>Classes for students, had a redesign, we bring the same concept design for cards, for classes, so for students we redesign cards, instead use teacher names now is using teacher thumb photo that’s bring a refresh design and a modern visual. Now users can access this section easy and identify what class is and the information about teacher.</p>
+
+---
