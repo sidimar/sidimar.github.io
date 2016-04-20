@@ -33,6 +33,3 @@ description: "I am a Brazilian UI|UX designer, with more than 10 years of experi
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-gems: ['kramdown']
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
