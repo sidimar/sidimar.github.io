@@ -13,7 +13,9 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.tags.case %}
+
+            {% for post in site.posts %}
+            {% for post in site.categories[case] %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -33,8 +35,9 @@
                     <hr class="primary">
                 </div>
             </div>
+
             <div class="row">
-            {% for post in site.categories.design %}
+            {% for post in site.category.design %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -55,7 +58,7 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.categories.brand %}
+            {% for post in site.categories[brand] %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
