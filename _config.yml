@@ -34,4 +34,5 @@ description: "I am a Brazilian UI|UX designer, with more than 10 years of experi
 markdown: kramdown
 permalink: pretty
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
