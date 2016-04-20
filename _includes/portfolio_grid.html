@@ -34,9 +34,13 @@
                     <hr class="primary">
                 </div>
             </div>
-
+{% for category in page.categories %}
+  {% for post in site.categories[design] %}
+    {{ post.modal-id }}
+  {% endfor %}
+{% endfor %}
             <div class="row">
-            {% for post in site.categories.design limit: 1 %}
+            {% for post in site.category.design %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
