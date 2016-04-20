@@ -12,4 +12,5 @@ category: Logo Design
 url: 
 description: <p>Logo for a project that addresses a school extension for parents who can see their children homeworks progress and teachers/school massages.</p>
 
+
 ---
