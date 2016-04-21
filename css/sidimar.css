@@ -328,6 +328,20 @@ section.success a.active {
   background-color: #2F3A70;
   border: solid 2px #2F3A70;
 }
+.success .btn-outline {
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.success .btn-outline:hover,
+.success .btn-outline:focus,
+.success .btn-outline:active,
+.success .btn-outline.active {
+  color: #2F3A70;
+  background-color: white;
+  border: solid 2px white;
+}
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
