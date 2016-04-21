@@ -8,7 +8,7 @@ thumbnail: tb-jej-jam-brand.jpg
 alt: J&J Jam Session
 project-date: February 2013
 client: Johnson and Johnson
-category: Logo Design
+category: brand
 url: 
 description: <p>Jam session was a project created with the intent of bringing ideas from different people together for Johnson and Johnson.</p> <p>The pallet of colours is diverse to represent the different kind of people, the font is classic and modern and the balloon represent the brainstorm.</p> 
 

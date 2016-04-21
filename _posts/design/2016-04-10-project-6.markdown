@@ -9,7 +9,7 @@ alt: ClassIS
 project-date: March 2014
 client: Learning Data
 url: https://classis.co.uk/littleacorns/class
-category: UI Design, Web Site
+category: design
 description: <p>ClassIS is a school Management Information System software, used in fourteen countries across three continents, and have been in the market for a while now.</p><p>The redesign was needed as its previous one wasn’t being enough to keep the attention of its newest users. It was needed to adjust it to appear more modern and mainly, more user friendly. The redesign was made for both desktop and mobile version, and it was based on the team and users feedback.</p>
 
 ---

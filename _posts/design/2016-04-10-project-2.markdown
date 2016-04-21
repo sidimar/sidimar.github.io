@@ -8,7 +8,7 @@ thumbnail: tb-ocasarao.jpg
 alt: Pizzaria O Casarão
 project-date: August 2010
 client: Pizzaria O Casarão
-category: UI Design, Web Site
+category: design
 url: 
 description: <p>Website | E-commerce for a restaurant pizzeria in Brazil with 4 restaurants. I was responsible to create the design and developed the front-end.</p><p>The restaurants had a website before without e-commerce, after redesign and implement the e-commerce the restaurants started selling pizza online.</p>
 

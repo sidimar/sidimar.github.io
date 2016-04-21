@@ -9,7 +9,7 @@ alt: Revive Car
 project-date: November 2009
 client: Revive Car
 url: 
-category: UI Design, Web Site
+category: design
 description: <p>This website has been redesigned for a small car agency, with the intent of attracting a younger audience.</p><p>The pallet of colours and font chosen convey the idea of speed and stylish | tuned cars.</p>
 
 ---

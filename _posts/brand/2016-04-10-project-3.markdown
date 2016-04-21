@@ -8,7 +8,7 @@ thumbnail: tb-kawanza-brand.jpg
 alt: J&J Jam Session
 project-date: November 2014
 client: Kwanza Tech
-category: Logo Design
+category: brand
 url: 
 description: <p>It had been requested for a Portuguese eCommerce company based in Angola to create a logo.</p>
 

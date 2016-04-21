@@ -8,7 +8,7 @@ thumbnail: tb-kimera-brand.jpg
 alt: Kimera
 project-date: June 2015
 client: Kimera
-category: Logo Design
+category: brand
 url: 
 description: <p>Kimera is a startup company with focus on  management platform for social media.</p> <p>I created the brand and website and proposal is be modern and very conceptual.</p>
 
