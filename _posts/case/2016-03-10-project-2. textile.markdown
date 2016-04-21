@@ -8,7 +8,7 @@ thumbnail: tb-kimera-app.jpg
 alt: Kimera App
 project-date: September 2015
 client: Kimera App
-category: App Design
+category: case
 url: 
 description: <p>Kimera app is a app for manage social media. All account in one place.</p><p>The idea was created a dashboard and it should be easy to use for manage contents on different social media.</p>
 

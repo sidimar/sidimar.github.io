@@ -13,8 +13,7 @@
                 </div>
             </div>
             <div class="row">
-
-            {% for post in page.categories.case %}
+            {% for post in site.categories.case %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -27,7 +26,6 @@
                 </div>
             {% endfor %}
             </div>
-
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>UI Design</h3>
@@ -48,7 +46,6 @@
                 </div>
             {% endfor %}
             </div>
-
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Brand</h3>
@@ -56,7 +53,7 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.categories[brand] %}
+            {% for post in site.categories.brand %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">

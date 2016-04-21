@@ -6,6 +6,6 @@ thumbnail: tb-jej-jam-brand.jpg
 alt: J&J Jam Session
 project-date: February 2013
 client: Johnson and Johnson
-category: Logo Design
+category: case
 url: 
 ---
