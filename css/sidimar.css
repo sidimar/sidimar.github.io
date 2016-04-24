@@ -458,6 +458,9 @@ footer .footer-below {
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
+.portfolio-modal .modal-content img.caption {
+  margin-bottom: 0;
+}
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
 }
