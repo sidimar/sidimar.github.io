@@ -36,6 +36,17 @@ $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+//Set document height for home
+function pageHeight() {
+    var wHeight = $( window ).height();
+    console.log (wHeight);
+    $('header').css('height', wHeight);
+}
+pageHeight()
+$(window).resize(function(){
+    pageHeight()
+});
+
 // Analytics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
