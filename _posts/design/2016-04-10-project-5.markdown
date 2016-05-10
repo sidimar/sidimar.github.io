@@ -1,0 +1,15 @@
+---
+title: Johnson & Johnson – Alex Gorsky – Blog
+layout: default
+modal-id: alexgorsky
+img0: ipad_2up_hometimes2.jpg
+img1: alex-mobile-webclip.jpg
+thumbnail: tb-alexgorsky.jpg
+alt: Johnson & Johnson – Alex Gorsky – Blog
+project-date: May 2013
+client: Johnson & Johnson
+url: 
+category: design
+description: <p>This blog was created specially to the CEO of Johnson & Johnson, Alex Gorsky. Alex is a very important person in all over the world, and his blog has more than 100k access daily.</p><p>The design for this blog needed to be clean and tidy, and at the same time elegant.</p>
+
+---

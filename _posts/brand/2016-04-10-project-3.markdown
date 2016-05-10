@@ -1,0 +1,15 @@
+---
+title: Kwanza Tech
+layout: default
+modal-id: kwanza
+img0: kwanza-logo.jpg
+img1: kwanza-paper.jpg
+thumbnail: tb-kawanza-brand.jpg
+alt: J&J Jam Session
+project-date: November 2014
+client: Kwanza Tech
+category: brand
+url: 
+description: <p>It had been requested for a Portuguese eCommerce company based in Angola to create a logo.</p>
+
+---
