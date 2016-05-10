@@ -1,5 +1,5 @@
 url: https://sidimar.github.io
-baseurl: 
+baseurl:
 
 # Site settings
 title: Sidimar
@@ -34,11 +34,15 @@ description: "I am a Brazilian UI|UX designer, with more than 10 years of experi
 markdown: kramdown
 permalink: pretty
 
+gems:
+    - jekyll-minifier
+
+jekyll-minifier:
+  exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns    
 
 
-
-jekyll-press:
-  exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
-  js_options: {}      # js minifier options
-  css_options: {}     # css minifier options
-  html_options: {}    # html minifier options
+# jekyll-press:
+#   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+#   js_options: {}      # js minifier options
+#   css_options: {}     # css minifier options
+#   html_options: {}    # html minifier options
