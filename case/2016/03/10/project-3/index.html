@@ -1075,22 +1075,34 @@
 	    <i class="fa fa-chevron-up"></i>
     </a>
 </div>
-        <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- jQuery -->
+<script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/sidimar.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/sidimar.js"></script>
+<script type="text/javascript">
+    function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "js/jquery.js";
+        document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script>
 
     </body>
 </html>
