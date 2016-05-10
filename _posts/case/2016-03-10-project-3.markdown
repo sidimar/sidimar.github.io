@@ -1,0 +1,11 @@
+---
+title: Case
+layout: default
+modal-id: case
+thumbnail: tb-miami.jpg
+alt: Miami Cocktail
+project-date: April 2016
+client: Miami
+category: case
+url: 
+---
