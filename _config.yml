@@ -1,0 +1,21 @@
+url: https://sidimar.github.io
+baseurl: /
+
+# Site settings
+title: Sidimar
+email: sidimar@gmail.com
+description: "I am a Brazilian UI|UX designer, with more than 10 years of experience."
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# jekyll-press:
+#   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+#   js_options: {}      # js minifier options
+#   css_options: {}     # css minifier options
+#   html_options: {}    # html minifier options
+
+# exclude:
+#   - img/
+#   - js/
