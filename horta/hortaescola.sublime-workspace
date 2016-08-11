@@ -1,0 +1,569 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C",
+				"Ciribelli"
+			],
+			[
+				"jaz",
+				"jazzclube"
+			],
+			[
+				"barbra",
+				"barbra-zinnger-trio"
+			],
+			[
+				"ja",
+				"jazz-clube"
+			],
+			[
+				"jazz",
+				"jazzclube"
+			],
+			[
+				"mar",
+				"marvio-ciribelli-mari-biolchini"
+			],
+			[
+				"tunai",
+				"tunai-thiago-amorim"
+			],
+			[
+				"ze",
+				"ze-alexandre"
+			],
+			[
+				"marcos",
+				"marcos-ariel"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"sr",
+				"sr-power-trio"
+			],
+			[
+				"ricardo",
+				"ricardo-silveira-ricardo-leao"
+			],
+			[
+				"roberto",
+				"roberto-rosemberg-nando-chagas"
+			],
+			[
+				"bossa",
+				"bossa-nova-sempre-nova"
+			],
+			[
+				"marcos-ariel-",
+				"marcos-ariel-ze-renato"
+			],
+			[
+				"PRH",
+				"PRH-3"
+			],
+			[
+				"marvio-fernan",
+				"marvio-fernandes-duo"
+			],
+			[
+				"Fe",
+				"Fernandes"
+			],
+			[
+				"francis",
+				"francisco-falcon-jazz-trio"
+			],
+			[
+				"vict",
+				"victor-bertrami-trio"
+			],
+			[
+				"julio",
+				"juliobittencourt"
+			],
+			[
+				"nico",
+				"nico-rezende-trio"
+			],
+			[
+				"tary",
+				"taryn-szpilman"
+			],
+			[
+				"tu",
+				"tunai-wagner-tiso"
+			],
+			[
+				"dudu",
+				"dudu-lima-trio"
+			],
+			[
+				"gilson",
+				"gilson-peranzzetta-mauro-senise"
+			],
+			[
+				"leo",
+				"leo-gandelman"
+			],
+			[
+				"J",
+				"Janeiro"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"cel",
+				"cellspacing	Attr"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"border-s",
+				"border-spacing"
+			],
+			[
+				"ht",
+				"html4"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 48780,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jorgejunior/Documents/terra-da-luz/scotch-box/public/tl-code-igniter/untitled.sublime-project",
+		"/Users/jorgejunior/Documents/zucchine/vagrant/trellis/trellis/Vagrantfile",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/apousada.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/marvio-ciribelli-sheila-sa.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/config/routes.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/controllers/jazzclube.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/jazzclube.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/marvio-ciribelli-adalberto-miranda.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/dilma-oliveira-trio.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/marcos-ariel.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/marvio-ciribelli-sergio-chiavazzoli.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/julio-bittencourt-trio.php",
+		"/Users/jorgejunior/Downloads/Softube-C0SM1CSqu4d-BundleUPTATE/01-ReadmeFirst.nfo",
+		"/Users/jorgejunior/Desktop/FlashPlayer_Update.vbs",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/dudu-lima-trio.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/marvio-fernandes-duo.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/taryn-szpilman-noveau-vintage-cafe.php",
+		"/Volumes/MyBook/muzicsss/iTunes/iTunes Music Library.xml",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/barbra-zinnger.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/roberto-rosemberg-nando-chagas.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/marvio-fernandes-jose-lourenco.php",
+		"/Users/jorgejunior/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Library/WebServer/Documents/terra-da-luz/application/controllers/__email.php",
+		"/Users/jorgejunior/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Library/WebServer/Documents/terra-da-luz/application/controllers/email.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/controllers/_email.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/jards-macale-victor-biglione.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/marvio-ciribelli-ju-cassou.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/marvio-ciribbelli-ju-cassou.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/apousada-old.php",
+		"/Library/WebServer/Documents/terra-da-luz/application/views/jards-macale-victor-biglione",
+		"/Library/WebServer/Documents/terra-da-luz/t.htaccesss.txt",
+		"/Users/jorgejunior/Downloads/music-apps-2016/Audio.Damage-DubStation.v.1.5.2.VST.WiN.OSx..x86 x64 [x.rObel]/MAC/ASSiGN.nfo",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/tunai-francisco-falcon.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/leo-gandelman.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/config/routes.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/apousada.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/controllers/jazzclube.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/os-bartira.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/reizilan-cartola-neto-rose-maia-esquinas-de-minas.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/jazzclube.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/nico-rezende.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/old-jazz",
+		"/Applications/AMPPS/www/site/application/controllers/jazzclube.php",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/ricardo-silveira-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/nelson-paes.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/ze-alexandre.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/barbra-zinnger-marvio-ciribelli.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/mark-lambert-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/festa-reveillon-terra-da-luz-2015.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/claudio-nucci-dri-goncalves.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marvio-ciribelli-rodrigo-camara.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marvio-ciribelli-larissa-piris.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/.htaccess",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/barbra-zinnger.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/inicial.php",
+		"/Users/jorgejunior/Desktop/PG-SH2.xml",
+		"/Library/Application Support/Roland/Activator/PG-SYSTEM1/PG-SYSTEM1.xml",
+		"/Library/Application Support/Roland/Activator/PG-SYS100/PG-SYS100.xml",
+		"/Users/jorgejunior/Downloads/sysonehnuieh843/PG-SYSTEM1.xml",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/jimmy-santacruz-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/dilma-oliveira-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/max-robert-marce-porena.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/tunai.php",
+		"/Users/jorgejunior/Documents/htdocs/site/img/site/jazzclube/jimmy-santacruz-trio.jpg",
+		"/Users/jorgejunior/Documents/htdocs/pousadaterradaluz/.htaccess",
+		"/Users/jorgejunior/Documents/htdocs/site/application/controllers/inicial.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/template/header.php",
+		"/Users/jorgejunior/Documents/htdocs/site/css/site/chaledetalhes.css",
+		"/Users/jorgejunior/Documents/htdocs/site/css/site/chales.css",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale-2.php",
+		"/Users/jorgejunior/Downloads/music-app-2015/Arturia.ARP2600.V.v2.6.0.MacOSX [x.rObel]/HEXWARS.nfo",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale-3.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale-4.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale-5.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale-6.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale-7.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale-8.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale-1.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/robertinho-silva-convida-duo-instrumental.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/india-tiso-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/dani-spielmann-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/dudu-lima-quarteto.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/gilson-peranzzetta-mauro-senise.php",
+		"/Users/jorgejunior/Desktop/583266-1.xspf",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marvio-ciribelli-mylena-ciribelli.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/tiberio-gaspar-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/dudu-lima-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/formulario-contato-evento.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/formulario-contato-interno.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/tunai-thiago-amorim.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/wagner-tiso-marcio-mallard.php",
+		"/Users/jorgejunior/Dropbox/cap/assinatura/assinatura texto",
+		"/Users/jorgejunior/Documents/htdocs/site/system/database/drivers/postgre/postgre_driver.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/denise-reis-marcelo-nami.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/ze-alexandre-7-8-9-julho.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/ze-alexandre-14-15-16-julho.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marcos-ariel-hand-dance-1-2.php",
+		"/Users/jorgejunior/Dropbox/cap/assinatura/fabiola.html",
+		"/Users/jorgejunior/Dropbox/cap/assinatura/gladis.html",
+		"/Users/jorgejunior/Documents/htdocs/site/css/site/geral.css",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/template/topo.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/sr-power-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/julio-bittencourt-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/taryn-szpilman.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/ricardo-silveira-ricardo-leao.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marcos-ariel.php",
+		"/Users/jorgejunior/Documents/htdocs/jj/site-temp-jj/index.html",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chales.php",
+		"/Users/jorgejunior/Documents/htdocs/jj/site-temp-jj/css/index.css",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/bossa-sempre-nova-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/roberto-rosemberg-nando-chagas.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/bossa-nova-sempre-nova.php",
+		"/Users/jorgejunior/Dropbox/adesivos-carica/relacao de bairros.txt",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/chale1.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marvio-ciribelli-sergio-chiavazzoli.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marvio-ciribelli-mari-biolchini.php",
+		"/Users/jorgejunior/Documents/htdocs/jj/untitled/index.html",
+		"/Users/jorgejunior/Documents/htdocs/site/application/controllers/eventos.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/eventos.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/yassir-chediak-trio.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marcos-ariel-ze-renato.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/prh3-a-radio-boko-moko.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marvio-ciribelli-adalberto-miranda-mari-biolchini.php",
+		"/Users/jorgejunior/Documents/htdocs/site/application/views/marvio-ciribelli-sergio-chiavazolli.php",
+		"/Users/jorgejunior/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jorgejunior/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"/Users/jorgejunior/Documents/htdocs/site/",
+			"/Users/jorgejunior/Documents/htdocs/site/application",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http",
+			"vadia",
+			"funk",
+			"motel",
+			"barbra",
+			"taryn",
+			"4,",
+			"jards",
+			"osbartira",
+			"Fazer Reserva",
+			"Faça Sua Reserva",
+			"dudu",
+			"commom.php",
+			"item",
+			"telefone_1",
+			"#",
+			"waveform",
+			"rosemberg",
+			"nando",
+			"prh3",
+			"Chiavazolli",
+			"Boco Moco",
+			"Visconde de Mauá",
+			"falcon",
+			"com participação Especial do contrabaixista Adalberto Miranda",
+			"bold",
+			"%3",
+			"mail",
+			"email",
+			"telefone",
+			" ,",
+			"Steam",
+			"w",
+			"%\"",
+			"20, 144, 120"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Mais Informações",
+			"Boko Moko",
+			"<strong>Visconde de Mauá</strong>",
+			"",
+			"strong",
+			",:",
+			",",
+			"100, 100, 100"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hortaescola.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"a890/texto-a890.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 324.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
