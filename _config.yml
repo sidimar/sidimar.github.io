@@ -1,21 +1,58 @@
-url: https://sidimar.github.io
-baseurl: /
+# Welcome to Jekyll!
+#
 
 # Site settings
-title: Sidimar
-email: sidimar@gmail.com
-description: "I am a Brazilian UI|UX designer, with more than 10 years of experience."
+title: Sidimar Gobbo
+description: |
+  UX / UI Desinger
+owner: Sidimar # or company name
+first_published: 2016 # if migrating another site, the year of your first publish
+email: sidiamr@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sidimar.com" # the base hostname & protocol for your site
+social:
+  behance: https://www.behance.net/sidimar
+  twitter: https://twitter.com/sidimar
+  github: https://github.com/sidimar
+  linkedin-square: https://linkedin.com/in/sidimar
+  facebook-official: https://facebook.com/sidimar
+  google-plus-square: https://plus.google.com/u/0/+SidimarGobbo
+  #email: /contact/
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
-
-# jekyll-press:
-#   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
-#   js_options: {}      # js minifier options
-#   css_options: {}     # css minifier options
-#   html_options: {}    # html minifier options
-
-# exclude:
-#   - img/
-#   - js/
+#sass:
+#  style: compressed
