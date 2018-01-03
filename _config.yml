@@ -2,21 +2,20 @@
 #
 
 # Site settings
-title: Sidimar Gobbo
-description: |
-  UX / UI Desinger
-owner: Sidimar # or company name
+title: sidimar | ux designer
+description:
+owner:  # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
-email: sidiamr@gmail.com
+email: sidimar@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sidimar.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 social:
   behance: https://www.behance.net/sidimar
   twitter: https://twitter.com/sidimar
-  github: https://github.com/sidimar
+  # github: https://github.com/sidimar
   linkedin-square: https://linkedin.com/in/sidimar
-  facebook-official: https://facebook.com/sidimar
-  google-plus-square: https://plus.google.com/u/0/+SidimarGobbo
+  # facebook-official: https://facebook.com/sidimar
+  # google-plus-square: https://plus.google.com/u/0/+SidimarGobbo
   #email: /contact/
   #flickr:
   #instagram:
