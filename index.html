@@ -1,22 +1,44 @@
 ---
 layout: landing
 ---
-	<section class="wrapper">
-		<div class="inner">
-			<h1>sidimar <span>ux designer</span></h1>
-			<ul class="icons">
-		    {% for socloc in site.social %}
-		    {% if socloc[1] %}
-		    {% if socloc[0] == 'email' %}
-		    {% else %}
-		    <li>
-		      <a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}">
-		        <span class="label"></span>
-		      </a>
-		    </li>
-		    {% endif %}
-		    {% endif %}
-		    {% endfor %}
-		  </ul>
-		</div>
-	</section>
+
+
+
+	
+  <div class="nav">
+    <h1 class="nav-logo">
+      <a href="/">
+        <img src="img/logo.svg" alt="Sidimar Gobbo - UX Designer">
+      </a>
+    </h1>
+      
+    <ul class="nav-menu">
+      <li class="nav-menu-item"><a href="https://www.behance.net/sidimar" target="_blank">works</a></li>
+      <li class="nav-menu-item"><a href="/resume/sidimar-gobbo.pdf" target="_blank">resume</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <h1 class="heading">Hi! <br>I'm Sidimar - a <span class="underline--magical">ux designer</span> based in Brazil</h1>
+    <h2 class="subheading">
+    I am a user experience designer with more than 10 years experience. 
+    My main activities are understood what the users need and then advocate for them. 
+    <!-- #lo-fi, #hi-fi, #design, #usability_test -->
+		</h2>
+		
+
+		<ul class="icons">
+			{% for socloc in site.social %}
+			{% if socloc[1] %}
+			{% if socloc[0] == 'email' %}
+			{% else %}
+			<li>
+				<a target="_blank" href="{{ socloc[1] }}">
+					<i class="fab fa-{{ socloc[0] }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+		</ul>
+  </div>
+

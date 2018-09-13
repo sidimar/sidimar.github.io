@@ -4,11 +4,7 @@
 
 $baseurl: '{{ site.baseurl }}/images';
 
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Lato:100');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400');
 
 /*
 	Spectral by HTML5 UP
@@ -16,79 +12,11 @@ $baseurl: '{{ site.baseurl }}/images';
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-	@import 'libs/skel';
-
-	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)'
-	));
-
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: ( gutters: 1.5em )
-	));
-
 /* Basic */
 
-	@-ms-viewport {
-		width: device-width;
-	}
-	body {
-		color: _palette(fg);
-		font-family: _font(family);
-		font-size: 15pt;
-		font-weight: _font(weight);
-		letter-spacing: _size(letter-spacing);
-		line-height: 1.65em;
-		background: url("../img/bg.svg") center center fixed;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	a {
-		border-bottom: dotted 1px;
-		color: inherit;
-		text-decoration: none;
-
-		&:hover {
-			border-bottom-color: transparent;
-		}
-	}
-
-	.inner {
-		width: 220px;
-		height: 200px;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		margin-top: -100px;
-		margin-left: -100px;
-	}
-
-	h1 {
-		font-size: 72px;
-		color: _palette(fg-bold);
-		font-weight: 100;
-		line-height: 1em;
-		letter-spacing: -4px;
-		text-align: center;
-
-		span {
-			margin-top: -30px;
-			margin-bottom: 30px;
-			display: block;
-			font-size: 20px;
-			letter-spacing: 0;
-		}
-	}
 
 /* Icon */
 	.icon {
-		@include icon;
 		border-bottom: none;
 		position: relative;
 		font-size: 20px;
@@ -96,7 +24,9 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	.icons {
 		width: 140px;
-		margin: 0 auto;
+		margin: 50px auto 0;
+		list-style: none;
+		
 		li {
 			text-align: center;
 			float: left;
@@ -104,31 +34,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 		& li:last-child {
 			margin-right: 0;
-		}
-	}
-
-/* Wrapper */
-
-	@mixin wrapper($p) {
-		background-color: _palette($p, bg);
-		color: _palette($p, fg);
-
-		// Basic
-
-			strong, b {
-				color: _palette($p, fg-bold);
-			}
-	}
-
-	.wrapper {
-
-
-		@include breakpoint(medium) {
-			@include padding(4em, 3em);
-		}
-
-		@include breakpoint(small) {
-			@include padding(3em, 2em);
 		}
 	}
 
@@ -144,14 +49,122 @@ $baseurl: '{{ site.baseurl }}/images';
 		left: 0;
 		margin-bottom: 30px;
 		font-size: 11px;
-		font-weight: _font(weight-light);
+		font-family: "Open Sans", sans-serif;
+	}
 
 
-		@include breakpoint(medium) {
-			@include padding(4em, 3em);
+	body {
+		color: #212121;
+	}
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.heading {
+		font-family: "Playfair Display", serif;
+		font-size: 8vw;
+	
+	}
+	
+	.subheading {
+		font-family: "Open Sans", sans-serif;
+		font-size: 1em;
+		line-height: 1.5;
+	}
+	
+	@media screen and (min-width: 40em) {
+		body {
+			color: #212121;
 		}
-
-		@include breakpoint(small) {
-			@include padding(3em, 2em);
+		.container {
+			width: 50%;
+		}
+	
+		.heading {
+			font-size: 3.5vw;
+			line-height: 1.3;
+		}
+	
+		.subheading {
+			font-size: 1.25vw;
 		}
 	}
+	/*================================================
+	Start Important Part
+	==================================================*/
+	.underline--magical {
+		background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+		background-repeat: no-repeat;
+		background-size: 100% 0.2em;
+		background-position: 0 88%;
+		transition: background-size 0.25s ease-in;
+	}
+	.underline--magical:hover {
+		background-size: 100% 88%;
+	}
+	
+	/*================================================
+	End Important Part
+	==================================================*/
+	
+		a,
+		.anchor {
+			border-bottom: 1px solid rgba(33, 33, 33, 0.2);
+			color: #212121;
+			display: inline-block;
+			text-decoration: none; }
+		
+		a:hover,
+		.anchor:hover,
+		.anchor-parent:hover a,
+		.anchor-parent:hover .anchor  {
+			border-bottom-color: rgba(33, 33, 33, 0.6);
+			text-decoration: none; }
+		
+	
+		
+		.nav {
+			width: 90%;
+			margin: 0 auto  5vw;
+			overflow: hidden;
+		}  
+		@media screen and (min-width: 40em) {
+			.nav {
+				width: 50%;
+			}
+		}
+	
+	
+	
+	
+		.nav-logo {
+			margin: 0;
+			font-size: 1em; 
+			float: left;
+		}
+		.nav-logo a {
+			border: none;
+			padding: 30px;
+			padding-left: 0;
+		}
+		.nav-logo img {
+			width: 100px;
+		}
+		
+		.nav-menu {
+			padding: 30px; 
+			float: right;
+			padding-right: 0;
+		}
+		
+		.nav-menu-item {
+			float: left;
+			list-style-type: none;
+			margin-right: 10px; 
+		}
+		@media (min-width: 650px) {
+			.nav-menu-item {
+				margin-right: 15px; 
+			} 
+		}
