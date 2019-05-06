@@ -54,7 +54,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 
 	body {
-		color: #212121;
+		color: #ffffff;
+		background-color: #212121;
 	}
 	.container {
 		width: 90%;
@@ -74,7 +75,8 @@ $baseurl: '{{ site.baseurl }}/images';
 	
 	@media screen and (min-width: 40em) {
 		body {
-			color: #212121;
+			color: #ffffff;
+			background-color: #212121;
 		}
 		.container {
 			width: 50%;
@@ -109,8 +111,8 @@ $baseurl: '{{ site.baseurl }}/images';
 	
 		a,
 		.anchor {
-			border-bottom: 1px solid rgba(33, 33, 33, 0.2);
-			color: #212121;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+			color: #ffffff;
 			display: inline-block;
 			text-decoration: none; }
 		
@@ -118,7 +120,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		.anchor:hover,
 		.anchor-parent:hover a,
 		.anchor-parent:hover .anchor  {
-			border-bottom-color: rgba(33, 33, 33, 0.6);
+			border-bottom-color: rgba(255, 255, 255, 0.6);
 			text-decoration: none; }
 		
 	
@@ -150,7 +152,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		.nav-logo img {
 			width: 100px;
 		}
-		
 		.nav-menu {
 			padding: 30px; 
 			float: right;
