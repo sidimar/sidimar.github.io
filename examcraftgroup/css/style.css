@@ -1,0 +1,632 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background: url('../images/examcraftgroup-mobile-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h2,
+p,
+.menu-company a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.accordion {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.accordion ul,
+.accordion ul li {
+    width: 100%;
+    margin: 0!important;
+}
+
+.accordion .container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 220px;
+}
+
+.accordion .content {
+    width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.accordion a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    text-align: right;
+}
+
+.accordion .brand-home {
+    display: none;
+}
+
+.accordion .brand {
+    margin-right: 15px;
+    float: left;
+}
+
+.accordion .title {
+    line-height: 24px;
+}
+
+.accordion .title span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline;
+    padding: 3px 10px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.accordion .examcraft .title span {
+    background-color: #033d66;
+}
+
+.accordion .fourschools .title span {
+    background-color: #be7803;
+}
+
+.accordion .supergeneration .title span {
+    background-color: #5a8324;
+}
+
+.accordion .examcraftformative .title span {
+    background-color: #3C64B1;
+}
+
+.accordion .thetuitioncentre .title span {
+    background-color: #2C4553;
+}
+
+.accordion .examcraft .brand {
+    width: 152px;
+    height: 130px;
+}
+
+.accordion .fourschools .brand {
+    width: 130px;
+    height: 130px;
+}
+
+.accordion .supergeneration .brand {
+    width: 120px;
+    height: 165px;
+}
+
+.accordion .examcraftformative .brand {
+    width: 120px;
+    height: 150px;
+}
+.accordion .thetuitioncentre .brand {
+    width: 120px;
+    height: 150px;
+}
+
+.accordion ul li:nth-child(1) {
+    background: rgba(11, 69, 106, 0.8);
+}
+
+.accordion ul li:nth-child(2) {
+    background: rgba(242, 146, 0, 0.8);
+}
+
+.accordion ul li:nth-child(3) {
+    background: rgba(140, 198, 63, 0.8);
+}
+
+.accordion ul li:nth-child(4) {
+    background: rgba(0, 131, 202, 0.8);
+}
+
+.accordion ul li:nth-child(5) {
+    background: rgba(44, 69, 83, 0.8);
+}
+
+.menu-company {
+    width: 100%;
+    background-color: #727272;
+    height: 150px;
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 135px;
+    display: none;
+}
+.menu-company li {
+    line-height: 50px;
+}
+.menu-company li a {
+    display: block;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.menu-company li a {
+    font-weight: 400;
+    margin: 0;
+    font-size: 14px;
+    color: #b1b1b1;
+    -webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+.menu-company li a:hover {
+    background-color: #898989;
+}
+
+.four-integrated {
+    width: 100%;
+    height: 200px;
+    line-height: 26px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #606060;
+    font-weight: 100;
+    position: relative;
+}
+.four-integrated p {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition: 0ms;    
+    line-height: 40px;
+    text-transform: none;
+    font-weight: 400;
+} 
+
+.footer-top {
+    color: #fff;
+    background-color: #212121;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-top h2 {
+    margin-top: 40px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.footer-top .social-media {
+    margin: 40px auto 0;
+}
+
+.footer-bottom {
+    color: #b2b2b2;
+    background-color: #0e0e0e;
+    padding: 20px 0 0;
+    text-align: center;
+}
+
+.footer-bottom a {
+    color: #b2b2b2;
+}
+.text-rotate {
+    display: none;
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px)  {
+
+    .accordion .content {
+        width: 80%;
+    }
+    .brand-home-span {
+        display: block;
+        float: left;
+        width: 250px;
+        height: 160px;
+    }
+    .accordion .title {
+        line-height: 38px;
+    }
+    
+    .accordion .title span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+        display: inline;
+        padding: 3px 10px;
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
+    }
+    .accordion .examcraft .brand {
+        width: 170px;
+        height: 150px;
+    }
+    
+    .accordion .fourschools .brand {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .accordion .supergeneration .brand {
+        width: 160px;
+        height: 165px;
+    }
+    
+    .accordion .examcraftformative .brand {
+        width: 140px;
+        height: 160px;
+    }
+    .accordion .thetuitioncentre .brand {
+        width: 140px;
+        height: 160px;
+    }
+}
+@media screen and (min-width: 992px) {
+
+    .text-rotate {
+        -webkit-transform: rotate(-90deg)!important;
+        -moz-transform: rotate(-90deg)!important;
+        -ms-transform: rotate(-90deg)!important;
+        -o-transform: rotate(-90deg)!important;
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 32px;
+        color: #fff;
+        display: none;
+        transition: none;
+        opacity: 0.7;
+    }
+    .text-rotate.examcraft {
+        height: 35px;
+        margin: 35px 0 0 -83px;
+        width: 150px;
+    }
+    .text-rotate.fourschools {
+        height: 35px;
+        margin: 35px 0 0 -72px;
+        width: 131px;
+    }
+    .text-rotate.supergeneration {
+        height: 35px;
+        margin: 35px 0 0 -145px;
+        width: 270px;
+    }
+    .text-rotate.examcraftformative {
+        height: 35px;
+        margin: 35px 0 0 -212px;
+        width: 400px;
+    }        
+    .text-rotate.thetuitioncentre {
+        height: 35px;
+        margin: 35px 0 0 -205px;
+        width: 400px;
+    }        
+    .accordion ul:hover li:hover .text-rotate {
+        display: none;
+    }
+
+    .accordion ul:hover li .text-rotate {
+        display: block;
+    }
+
+
+    .examcraft-group .menu-companies {
+        display: none;
+    }
+    /* Mega Menu */
+    header.mega-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+    }
+    .brand .btn-open-link {
+        display: none !important;
+    }
+
+    .menu-company {
+        display: block;
+        background-color: transparent;
+        position: static;
+    }
+    .menu-company li {
+        float: right;
+        line-height: 90px;
+        list-style: none;
+    }
+    .menu-company li,
+    .menu-company li a {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    .menu-company li:last {
+        margin-right: 0;
+    }
+    .menu-company li a {
+        font-weight: 400;
+        margin: 0;
+        font-size: 14px;
+        color: #b1b1b1;
+        -webkit-transition: color 0.5s ease-out;
+        -moz-transition: color 0.5s ease-out;
+        -o-transition: color 0.5s ease-out;
+        transition: color 0.5s ease-out;
+    }
+    .menu-company li a:hover {
+        color: #9a9a9a;
+        background-color: transparent;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+    body {
+        background: url('../images/examcraftgroup-bg.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    .accordion {
+        width: 100%;
+        overflow: hidden;
+    }
+    .accordion ul {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+        margin: 0 !important;
+    }
+    .accordion ul li {
+        display: table-cell;
+        vertical-align: bottom;
+        position: relative;
+        width: 25%;
+        transition: all 500ms ease;
+    }
+    .accordion .container {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    .accordion .content {
+        width: 80%;
+        transition: all 200ms ease;
+    }
+    .accordion .content * {
+        opacity: 0;
+        overflow: hidden;
+        position: unset;
+        top: unset;
+        left: unset;
+        margin-right: unset;
+        transform: unset;
+    }
+    .accordion .content .brand-home {
+        opacity: 1;
+        display: block;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        transition: 0ms;
+    }
+    .accordion .content .brand-home-span {
+        opacity: 1;
+    }
+    .accordion a {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+    }
+    .accordion .brand {
+        margin-right: 35px;
+        float: left;
+    }
+    .accordion .title {
+        line-height: 60px;
+        padding-right: 20px;
+    }
+    .accordion .title span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        color: #fff;
+        font-size: 42px;
+        text-transform: uppercase;
+        display: inline;
+        padding: 5px 10px 5px 20px;
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
+    }
+    .accordion .examcraft .brand-home,
+    .accordion .examcraft .brand {
+        width: 261px;
+        height: 135px;
+        margin-bottom: 45px;
+    }
+    .accordion .fourschools .brand-home,
+    .accordion .fourschools .brand {
+        width: 225px;
+        height: 190px;
+        margin-bottom: 45px;
+    }
+    .accordion .supergeneration .brand-home,
+    .accordion .supergeneration .brand {
+        width: 333px;
+        height: 195px;
+        margin-bottom: 40px;
+    }
+    .accordion .examcraftformative .brand-home,
+    .accordion .examcraftformative .brand {
+        width: 238px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .accordion .thetuitioncentre .brand-home,
+    .accordion .thetuitioncentre .brand {
+        width: auto;
+        height: 48px;
+        margin-bottom: 40px;
+    }
+    .accordion ul li:nth-child(1) {
+        background: rgba(11, 69, 106, 0.8);
+    }
+    .accordion ul li:nth-child(2) {
+        background: rgba(242, 146, 0, 0.8);
+    }
+    .accordion ul li:nth-child(3) {
+        background: rgba(140, 198, 63, 0.8);
+    }
+    .accordion ul li:nth-child(4) {
+        background: rgba(0, 131, 202, 0.8);
+    }
+    .accordion ul:hover li {
+        width: 5%;
+    }
+    .accordion ul:hover li:hover {
+        width: 95%;
+    }
+    .accordion ul:hover li:hover .content {
+        display: block;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    .accordion ul:hover li:hover .content * {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+        -webkit-transition: all 400ms ease;
+        transition: all 1.5s ease;
+    }
+    .accordion ul:hover .brand-home {
+        display: none;
+        transition: 0ms;
+    }
+    .four-integrated {
+        height: 265px;
+        line-height: 32px;
+        font-size: 32px;
+        padding-top: 110px;
+    }
+    .four-integrated p {
+        width: 50%;
+    }
+    
+    .footer-top {
+        padding: 90px 0;
+        text-align: left;
+    }
+    .footer-top h2 {
+        font-size: 21px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+    .footer-top .social-media {
+        float: left;
+        margin: 0;
+    }
+    
+    .footer-bottom {
+        color: #b2b2b2;
+        background-color: #0e0e0e;
+        padding: 30px 0;
+        text-align: left;
+    }
+}
+
+
+footer {
+    background-color: #555555;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted #a1a1a1;
+}
+
+footer a:hover, footer a:active, footer a:focus {
+color: white;
+border: none;
+}
+
+footer ul, footer ol {
+padding: 0px;
+list-style: none;
+}
+
+.footer-social-links {
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+.footer-social-links a {
+border: none;
+}
+
+.footer-social-links a svg {
+width: 35px;
+height: auto;
+fill: white;
+margin-right: 15px;
+opacity: .8;
+}
+
+.footer-social-links a svg:hover {
+opacity: 1;
+}
+
+footer h3 {
+    font-size: 1.6875em;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

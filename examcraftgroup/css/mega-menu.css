@@ -1,0 +1,155 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container:after, .container:before {
+    display: table;
+    content: " ";
+  }
+  header {      
+    background-color: #4a4a4a;
+  }
+  .mega-menu .container {
+    margin: 0 auto;
+    height: 85px;
+  }
+  .brand {
+    width: 300px;
+    height: 85px;
+    line-height: 80px;
+    float: left;
+  }
+  .brand .btn-open-link {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  .social-media {
+    margin-top: 25px;
+    float: right;
+  }
+  .social-media li {
+    float: left;
+    text-align: center;
+    line-height: 37px;
+    margin-right: 10px;
+    border: none!important;
+    list-style: none;
+  }
+
+  .social-media a {
+    border: solid 2px #717171;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: block;
+    -webkit-transition: border 0.5s ease-out;
+    -moz-transition: border 0.5s ease-out;
+    -o-transition: border 0.5s ease-out;
+    transition: border 0.5s ease-out;
+  }
+  .social-media a:hover {
+    border: solid 2px #9a9a9a;
+  }
+  .social-media li:last-child {
+    margin-right: 0;
+  }
+  .social-media .fa {
+    color: #717171;
+    font-size: 20px;
+    -webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+  }
+  .social-media a:hover .fa,
+  .social-media li:hover a .fa {
+    color: #9a9a9a;
+
+  }
+  .menu-companies {
+    width: 100%;
+    display: none;
+    background-color: #727272;
+    height: 110px;
+    position: absolute;
+    z-index: 9999;
+  }
+  .menu-companies ul {
+    margin: 0!important;
+  }
+  .menu-companies li {
+    width: 25%;
+    height: 110px;
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 105px;
+    border-bottom: solid 8px;
+  }
+  .menu-companies li a {
+    display: block;
+    height: 102px;
+  }
+  .menu-companies li a:hover {
+    background: #5a5a5a;
+  }
+
+  .menu-companies li.company.examcraft {
+    border-color: #00548e;
+  }
+  .menu-companies li.company.fourschools {
+    border-color: #f7941e;
+  }
+  .menu-companies li.company.supergeneration {
+    border-color: #8dc63f;
+  }
+  .menu-companies li.company.examcraftformative {
+    border-color: #3C64B1;
+  }
+  .menu-companies li.company.thetuitioncentre {
+    border-color: #2C4553;
+  }
+
+
+  .menu-companies li.company.examcraft img {
+    width: auto;
+    height: 36px;
+  }
+  .menu-companies li.company.fourschools img {
+    width: auto;
+    height: 46px;
+  }
+  .menu-companies li.company.supergeneration img {
+    width: auto;
+    height: 47px;
+  }
+  .menu-companies li.company.educationcareers img {
+    width: auto;
+    height: 39px;
+  }  
+
+
+@media screen and (max-width: 991px) {
+  .mega-menu .container {
+    height: 135px;
+  }
+  .brand {
+    width: 100%;
+    line-height: 80px;
+  }
+  .brand div {
+    width: 245px;
+    margin: 0 auto;
+  }
+
+  .social-media {
+    width: 170px;
+    float: none;
+    margin: 0 auto;
+  }
+  .menu-companies li.company img {
+    max-width: 75%;
+  }
+}
